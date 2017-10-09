@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="one">один</string>
+    <string name="two">два</string>
+    <string name="three">три</string>
+    <string name="four">четыре</string>
+    <string name="five">пять</string>
+    <string name="six">шесть</string>
+    <string name="seven">семь</string>
+    <string name="eight">восемь</string>
+    <string name="nine">девять</string>
+    <string name="nothing" />
+    <string name="thousand">тысяча</string>
+    <string name="hundred">сто</string>
+    <string name="two_hundred">двести</string>
+    <string name="hundreds">сот</string>
+    <string name="ten">десять</string>
+    <string name="forty">сорок</string>
+    <string name="ninety">девяносто</string>
+    <string name="twelve">двенадцать</string>
+    <string name="tens">надцать</string>
+    <string name="tens_after_4">десят</string>
+    <string name="tens_2_3">дцать</string>
+    <string name="space">" "</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
 </resources>

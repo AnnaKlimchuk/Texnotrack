@@ -24,8 +24,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        timer.start();
     }
 
     private void startActivity() {
@@ -38,5 +36,11 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         timer.cancel();
         timer.start();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        timer.cancel();
     }
 }
