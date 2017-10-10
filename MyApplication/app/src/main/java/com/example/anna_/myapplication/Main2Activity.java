@@ -157,6 +157,7 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
         if (!isOn) {
             isOn = true;
             ((Button) v).setText(R.string.stop);
+            initTimer(0);
             timer.start();
         } else {
             isOn = false;
